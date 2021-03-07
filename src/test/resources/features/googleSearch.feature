@@ -6,7 +6,7 @@ Feature: Google search functionality
     Given User is on Google home page
     Then User should see title is Google
 
-
+  @smoke_test
   Scenario: User search title verification
     Given User is on Google home page
     When User searches for apple

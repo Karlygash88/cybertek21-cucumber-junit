@@ -1,4 +1,4 @@
-@1
+@smoke_test
 Feature: Library app login feature
   As a user, I should be able to login with correct credentials to different accounts. And dashboard
   Accounts are:librarian, student, admin

@@ -1,3 +1,4 @@
+@smoke_test
 Feature: Etsy search feature
 
 
@@ -6,7 +7,7 @@ Feature: Etsy search feature
     Then user should see title as expected
 
     #expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
-  @etsy
+
   Scenario: Etsy search title verification
     Given user is on the Etsy landing page
     When user searches for "wooden spoon"
